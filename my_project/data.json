@@ -1,0 +1,48 @@
+{
+  "uesrs": [
+    {
+      "name": "张三"
+    }
+  ],
+  "xuesheng": [
+    {
+      "teacher_name": "苏利",
+      "class_num": "181104",
+      "course_name": "计算机网络"
+    },{
+      "teacher_name": "王强",
+      "class_num": "181104",
+      "course_name": "C语言"
+    }
+  ],
+  "teacher": [
+    {
+      "teacher": "廖学",
+      "course": "C语言",
+      "class": "181103",
+      "evaluation": "讲课声音大一点"
+    },
+    {
+      "teacher": "廖学",
+      "course": "C语言",
+      "class": "181103",
+      "evaluation": "讲课声音大一点"
+    }
+  ],
+  "teacher-file": [
+    {
+      "teacher_id": "18002",
+      "teacher_name": "廖学",
+      "sex": "女",
+      "education": "硕士",
+      "title": "教授",
+      "birthdate": "1982年10月21日",
+      "worktime": "2002年4月",
+      "school": "电子科技大学",
+      "politicalface": "党员",
+      "granttime": "2006年4月",
+      "teachinghours": "48学时",
+      "teacher_score": "48"
+    }
+  ]
+}
