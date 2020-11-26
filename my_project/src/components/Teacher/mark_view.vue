@@ -56,7 +56,11 @@
             style="width: 100%;overflow-x:hidden">
             <el-table-column
               align="center"
+<<<<<<< HEAD
               prop="teacher_name"
+=======
+              prop="name"
+>>>>>>> b10abb0a02d34025f1383b337dd933703dc0b9e2
               label="教师"
               width="180">
             </el-table-column>
@@ -115,7 +119,11 @@
       getTableList(){
         this.$axios({
           type:'post',
+<<<<<<< HEAD
           url:"http://localhost:3000/xuesheng"
+=======
+          url:"http://localhost:8999/teacher/getteacherclasslist"
+>>>>>>> b10abb0a02d34025f1383b337dd933703dc0b9e2
         }).then((res) =>{
           console.log(res.data);
           this.List = res.data;
