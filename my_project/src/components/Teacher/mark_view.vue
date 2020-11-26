@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div id="mark_view">
     <el-container style="height:500px">
       <el-aside width="200px" style="background-color: #2b3a4d">
@@ -119,8 +119,6 @@
       getTableList(){
         this.$axios({
           type:'post',
-<<<<<<< HEAD
-          url:"http://localhost:3000/xuesheng"
 =======
           url:"http://localhost:8999/teacher/getteacherclasslist"
 >>>>>>> b10abb0a02d34025f1383b337dd933703dc0b9e2
